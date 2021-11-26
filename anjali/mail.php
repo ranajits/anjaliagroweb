@@ -38,7 +38,7 @@
 	$body = ob_get_contents();
 	ob_end_clean();
 	
-	$to = 'katkaramar64@gmail.com';
+	$to = 'anjali.agrofarming@gmail.com';
 
 	$s = mail($to,$subject,$body,$headers,"-t -i -f $from");
 
